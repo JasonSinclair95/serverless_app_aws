@@ -53,6 +53,9 @@ Ensure the following tools are installed:
 
 1. **Create Lambda Function Directory**
    Add your Lambda function to the `lambda_function_files` directory, ensuring the directory name matches the function file. For example:
+```bash
+/lambda_function_files/hello_world/hello_world.py
+``` 
 
 2. **Maintain Environment Consistency**
 To add a new environment:
@@ -66,3 +69,4 @@ Once the directory structure and configuration are prepared, deploy the Lambda f
 terraform init
 terraform plan
 terraform apply
+```
